@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/homeFragments">
+
+    <fragment
+        android:id="@+id/homeFragments"
+        android:name="com.Hamza.niosgeniusbookshub.Fragments.HomeFragments"
+        android:label="fragment_home_fragments"
+        tools:layout="@layout/fragment_home_fragments" >
+        <action
+            android:id="@+id/action_homeFragments_to_savedPDF"
+            app:destination="@id/savedPDF" />
+        <action
+            android:id="@+id/action_homeFragments_to_privacyFragment2"
+            app:destination="@id/privacyFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/savedPDF"
+        android:name="com.Hamza.niosgeniusbookshub.Fragments.SavedPDF"
+        android:label="fragment_saved_p_d"
+        tools:layout="@layout/fragment_saved_p_d" >
+        <action
+            android:id="@+id/action_savedPDF_to_homeFragments"
+            app:destination="@id/homeFragments" />
+        <action
+            android:id="@+id/action_savedPDF_to_privacyFragment2"
+            app:destination="@id/privacyFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/privacyFragment2"
+        android:name="com.Hamza.niosgeniusbookshub.Fragments.privacyFragment"
+        android:label="fragment_privacy"
+        tools:layout="@layout/fragment_privacy" >
+        <action
+            android:id="@+id/action_privacyFragment2_to_homeFragments"
+            app:destination="@id/homeFragments" />
+        <action
+            android:id="@+id/action_privacyFragment2_to_savedPDF"
+            app:destination="@id/savedPDF" />
+    </fragment>
+</navigation>

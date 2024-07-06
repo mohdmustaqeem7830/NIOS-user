@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "45949583896",
+    "firebase_url": "https://nios-genius-books-hub-default-rtdb.firebaseio.com",
+    "project_id": "nios-genius-books-hub",
+    "storage_bucket": "nios-genius-books-hub.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45949583896:android:46bc581edffbe5c0f6396d",
+        "android_client_info": {
+          "package_name": "com.Hamza.niosgeniusbookshub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU2dprvoOqtPcTcrABcyVjRTjMYpc7RZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:45949583896:android:a6882e455fd80af5f6396d",
+        "android_client_info": {
+          "package_name": "com.example.adminniospersonal"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU2dprvoOqtPcTcrABcyVjRTjMYpc7RZc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

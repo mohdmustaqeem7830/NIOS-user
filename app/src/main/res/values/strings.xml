@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NIOS Genius Books Hub</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="google_service_api"><a href="https://policies.google.com/terms">Google Play Services</a></string>
+    <string name="admob"><a href="https://developers.google.com/admob/terms">Admob Adds</a></string>
+    <string name="firebase"><a href="https://firebase.google.com/terms/analytics">Google Analytics for Firebase</a></string>
+    <string name="firebase_crashlytics"><a href="https://firebase.google.com/terms/crashlytics">Firebase Crashlytics</a></string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="early_childhood_ncast_neducation"><![CDATA[Early\nChildhood\nEducation\n& Care]]></string>
+    <string name="library_ninormation_nscience"><![CDATA[Library &\nInormation\nScience]]></string>
+    <string name="education_ninformation_nscience"><![CDATA[Education &\nInformation\nScience]]></string>
+</resources>
