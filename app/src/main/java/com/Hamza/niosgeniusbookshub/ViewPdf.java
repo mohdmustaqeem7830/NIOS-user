@@ -73,10 +73,9 @@ public class ViewPdf extends AppCompatActivity {
 
         // Check if the URL is a remote URL or a local file path
             if (isRemoteUrl(url)) {
-                new RetrievePDFfromUrl().execute(url);
+
             } else {
                 new RetrievePDFfromFile().execute(url);
-
         }
     }
 
@@ -107,8 +106,7 @@ public class ViewPdf extends AppCompatActivity {
                 }
 
             } catch (IOException e) {
-                // This is the method
-                // to handle errors.
+
                 e.printStackTrace();
             }
             return inputStream;
