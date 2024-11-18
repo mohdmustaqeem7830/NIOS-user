@@ -17,6 +17,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NIOSGenius"
         tools:targetApi="31">
+
+
         <activity
             android:name=".Categories.Categories_hindi_english"
             android:exported="false" />
@@ -82,8 +84,7 @@
         </activity> <!-- Sample AdMob app ID: ca-app-pub-3940256099942544~3347511713 -->
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-5945464463399164~5820021788" />
-
+            android:value="ca-app-pub-5945464463399164~8641910996" />
         <service
             android:name=".MyFirebaseMessagingService"
             android:exported="false">
